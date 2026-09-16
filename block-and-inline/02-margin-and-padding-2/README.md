@@ -14,7 +14,7 @@ Practice using margin and padding to control spacing inside and between differen
 - Working with nested block elements
 - Controlling spacing in a card layout
 - Removing or adjusting default margins from HTML elements
-- Using `box-sizing` to better control element dimensions
+- Using borders and background colors
 
 ## Files
 

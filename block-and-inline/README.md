@@ -2,7 +2,7 @@
 
 This folder contains the block and inline exercises from The Odin Project's Foundations course.
 
-These exercises focus on understanding spacing, sizing and the CSS box model through margin and padding.
+These exercises focus on understanding spacing and the CSS box model through margin and padding.
 
 ## Exercises
 
@@ -30,13 +30,13 @@ Main concepts:
 - Nested block elements
 - Default margins from HTML elements
 - Card layout structure
-- `box-sizing`
+- Borders and background colors
 
 ## What I practiced
 
 Throughout these exercises, I practiced:
 
-- Understanding the CSS box model
+- Understanding how margin and padding affect element spacing
 - Using margin to create space outside elements
 - Using padding to create space inside elements
 - Controlling the width of block elements
