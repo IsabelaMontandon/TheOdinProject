@@ -1,0 +1,18 @@
+.class {
+    background-color: pink;
+}
+
+#id {
+    color: blue;
+    font-size: 25px;
+}
+
+.cooler {
+    font-size: 20px;
+}
+
+#another {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 18px;
+}
