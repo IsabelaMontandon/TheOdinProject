@@ -26,10 +26,17 @@ body {
     text-transform: uppercase;
 }
 
-ul {
+.nav-links {
     display: flex;
     gap: 16px;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(206, 74, 17);
 }
 
 .main{
@@ -52,8 +59,91 @@ ul {
 .intro-text {
     display: flex;
     flex-direction: column;
-
     width: 400px;
+    gap: 16px;
+}
+
+.intro-text h1,
+.intro-text p {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.info-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.images img {
+    display:flex;
+    justify-content: center;
+}
+
+.images p {
+    display: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 172, 139);
+    padding: 70px;
+}
+
+.quote p {
+    font-size: 24px;
+    font-style: italic;
+    margin: 0px;
+    width: 600px;
+}
+
+.moreinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 16px;
+}
+
+.box {
+    background-color: rgb(206, 74, 17);
+    color: white;
+    padding: 40px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.title-moreinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-moreinfo p {
+    margin: 0px;
+    padding: 8px;
 }
 
 .footer {
@@ -65,7 +155,22 @@ ul {
     color: white;
 }
 
-button {
+.button-intro {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(206, 74, 17);
+    padding: 8px 24px;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-box {
     border: none;
     border-radius: 8px;
     background-color: white;
@@ -73,4 +178,9 @@ button {
     padding: 8px 24px;
     width: 200px;
     height: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
